@@ -1,5 +1,5 @@
 #image{
-    background-image: url("/images/logo.png");
+    background-image: url("./images/logo.png");
     width: 50px;
     height: 30px;
 }
@@ -33,7 +33,7 @@
 }
 
 #sec{
-    background-image: url("/images/code.jpeg");
+    background-image: url("./images/code.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     height: auto;  
@@ -55,13 +55,13 @@
 }
 
 #sec2{
-     background-image: url("/images/habilidad.jpg");
+     background-image: url("./images/habilidad.jpg");
      background-repeat: no-repeat;
      background-size: cover;
 }
 
 #sec3{
-    background-image: url("/images/misproyectos.jpg");
+    background-image: url("./images/misproyectos.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: auto;
@@ -69,7 +69,7 @@
 }
 
 #sec4{
-    background-image: url("/images/misproyectos.jpg");
+    background-image: url("./images/misproyectos.jpg");
     background-color: white;
 }
 
