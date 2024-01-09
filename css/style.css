@@ -8,17 +8,16 @@ navbar
 */
 .navbar{
     position:fixed;
-    width: 100%;
+    width:100% ;
     z-index: 1;
     background-color: black;
     opacity: 0.9;
 }
 
 .collapse{
-     
      font-size: larger;
      font-weight: bold;
-    justify-content: right;
+     justify-content: right;
 }
 
 .nav-link{
@@ -27,6 +26,19 @@ navbar
 
 .nav-link:hover{
     color: white;
+}
+
+.my-custom-toggler {
+    background-color: rgb(127, 25, 143);
+  border-style: dotted;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+}
+
+.navbar-toggler-icon{
+  
 }
 
 /*
@@ -119,6 +131,10 @@ hr{
     justify-content: center;
     align-items: center;
 }
+
+/*
+  cuadros de proyectos
+*/
 .container figure{    
     position: relative;
     height: 265px;
