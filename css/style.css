@@ -267,7 +267,7 @@ hr{
         margin-right: 30px;
     }
     /*Imagen de fondo*/
-    .imagen_fondo{
+    #sec{
         background-image: url("/images/code-backend.jpeg");
         background-attachment: fixed;
         background-size: cover;
