@@ -46,7 +46,7 @@ navbar
 
 /*Imagen de fondo*/
 .imagen_fondo{
-    background-image: url("/images/code-backend.jpeg");
+    background-image: url("./../images/code-backend.jpeg");
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
@@ -266,14 +266,5 @@ hr{
         cursor: pointer;
         margin-right: 30px;
     }
-    /*Imagen de fondo*/
-    #sec{
-        background-image: url("/images/code-backend.jpeg");
-        background-attachment: fixed;
-        background-size: cover;
-        background-repeat: no-repeat;
-        height: auto;  
-        position: relative;   
-    } 
   }
 
