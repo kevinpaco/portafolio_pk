@@ -45,14 +45,23 @@ navbar
   contenedor del las secciones 
 */
 .container-fluid{
-    background-color: rgb(39, 1, 44);
+    background-color: rgb(55, 2, 62);
+}
+
+/*Imagen de fondo*/
+.imagen_fondo{
+    background-image: url("/images/code-backend.jpeg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;  
+    position: relative;   
 }
 
 /*
    Seccion 1 
 */
 #sec{
-    background-image: url("../images/code.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     height: auto;  
@@ -77,22 +86,13 @@ navbar
  Seccion 2
 */
 #sec2{
-     background-image: url("../images/habilidad.jpg");
-     background-repeat: no-repeat;
-     background-size: cover;
+   
 }
-
-#sec3{
-    background-image: url("../images/misproyectos.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: auto;
-    
+/*Seccion 3*/
+#sec3{    
 }
-
+/*Seccion 4*/
 #sec4{
-    background-image: url("../images/misproyectos.jpg");
-    background-color: white;
 }
 
 .subtitulo{
@@ -107,6 +107,19 @@ navbar
    font-weight: bold;
    font-size: large;
    color: white;
+   background-color: rgba(0, 0, 0, 0.612);
+   padding: 8px;
+   border-radius: 10px;
+}
+
+.hintertitulo{
+    font-weight: bold;
+   font-size: large;
+   color: white;
+   background-color: rgba(0, 0, 0, 0.612);
+   padding: 8px;
+   border-radius: 10px;
+   text-align: center;
 }
 
 #proyects{
