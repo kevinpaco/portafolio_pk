@@ -37,10 +37,6 @@ navbar
   border-left-width: 1px;
 }
 
-.navbar-toggler-icon{
-  
-}
-
 /*
   contenedor del las secciones 
 */
@@ -270,5 +266,14 @@ hr{
         cursor: pointer;
         margin-right: 30px;
     }
+    /*Imagen de fondo*/
+    .imagen_fondo{
+        background-image: url("/images/code-backend.jpeg");
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: auto;  
+        position: relative;   
+    } 
   }
 
