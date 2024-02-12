@@ -202,7 +202,7 @@ hr{
 .cont img{
     border-radius: 6px;
 }
-
+/*Botones dinamicos*/
 .btn {
  
     position: relative;
@@ -244,5 +244,18 @@ hr{
   .foot{
     text-align: center;
     color: white;
+  }
+
+  @media only screen and (max-width: 767px){
+    .container figure{    
+        position: relative;
+        height: 295px;
+        width: 300px;
+        overflow: hidden;
+        border-radius: 6px;
+        box-shadow: 0px 25px 15px rgba(0, 0, 0, 0.50);
+        cursor: pointer;
+        margin-right: 30px;
+    }
   }
 
