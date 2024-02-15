@@ -78,6 +78,25 @@ navbar
     text-align: center;
 }
 
+.content-btn-wsp{
+   text-align: right;
+   position: fixed;
+   margin-top: 330px;
+}
+
+.btn-wsp{
+    width: 80px;
+    border-radius: 30%;
+    margin-right: 50px;
+    transition: 700ms;
+}
+
+.btn-wsp:hover{
+    width: 90px;
+    border-radius: 30%;    
+    transform: translateY(-20px);  
+}
+
 /*
  Seccion 2
 */
@@ -199,6 +218,12 @@ hr{
    width: 100%;
    max-width: 350px;
    margin: auto;
+   text-align: left;
+   padding-left: 3px;
+}
+
+b{
+    color: rgb(151, 148, 148);
 }
 
 .cont{
