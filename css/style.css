@@ -22,14 +22,12 @@
 }
 
 .container{
-   border: 1px solid blue;
    display: grid;
    justify-content: center;
 }
 
 .btn_nuevo {
     color: white;
-    border: 1px solid blue;
     text-decoration: none;
     width: 250px;
     height: 250px;
@@ -47,7 +45,6 @@
 
 .title{
     color: white;
-    border: 1px solid blue;
     margin-bottom: 0;
 }
 
