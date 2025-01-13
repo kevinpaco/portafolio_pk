@@ -1,295 +1,74 @@
-#image{
-    background-image: url("../images/logo.png");
-    width: 50px;
-    height: 30px;
-}
-/* 
-navbar
-*/
-.navbar{
-    position:fixed;
-    width:100% ;
-    z-index: 1;
-    background-color: black;
-    opacity: 0.9;
-}
-
-.collapse{
-     font-size: larger;
-     font-weight: bold;
-     justify-content: right;
-}
-
-.nav-link{
-    color: rgb(126, 124, 124);
-}
-
-.nav-link:hover{
-    color: white;
-}
-
-.my-custom-toggler {
-    background-color: rgb(127, 25, 143);
-  border-style: dotted;
-  border-top-width: 1px;
-  border-right-width: 1px;
-  border-bottom-width: 1px;
-  border-left-width: 1px;
-}
-
-/*
-  contenedor del las secciones 
-*/
-.container-fluid{
+.container-fluid {
     background-color: rgb(55, 2, 62);
+    height: 100vh; /* Asegura que ocupe toda la altura de la pantalla */
+    width: 100vw; /* Asegura que ocupe todo el ancho de la pantalla */
+    margin: 0; /* Elimina cualquier margen */
+    padding: 0; /* Elimina cualquier padding */
 }
 
-/*Imagen de fondo*/
-.imagen_fondo{
+/* Imagen de fondo */
+.imagen_fondo {
     background-image: url("../images/code-backend.jpeg");
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
-    height: auto;  
-    position: relative;   
-}
-
-/*
-   Seccion 1 
-*/
-#sec{
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: auto;  
-    position: relative; 
-}
-
-#img{
-    border-radius: 50%;
-    height: 290px;
-    width: 250px;
-}
-
-.text{
-    font-size: x-large;
-    font-weight: bold;
-    font-style: italic;
-    color: white;
-    text-align: center;
-}
-
-.content-btn-wsp{
-   text-align: right;
-   position: fixed;
-   margin-top: 330px;
-}
-
-.btn-wsp{
-    width: 80px;
-    border-radius: 30%;
-    margin-right: 50px;
-    transition: 700ms;
-}
-
-.btn-wsp:hover{
-    width: 90px;
-    border-radius: 30%;    
-    transform: translateY(-20px);  
-}
-
-/*
- Seccion 2
-*/
-#sec2{
-   
-}
-/*Seccion 3*/
-#sec3{    
-}
-/*Seccion 4*/
-#sec4{
-}
-
-.subtitulo{
-    font-size:xx-large;
-    font-weight: bold;
-    text-decoration: underline dashed;
-    font-style: italic;
-    color: blue;
-}
-
-.mi{
-   font-weight: bold;
-   font-size: large;
-   color: white;
-   background-color: rgba(0, 0, 0, 0.612);
-   padding: 8px;
-   border-radius: 10px;
-}
-
-.hintertitulo{
-    font-weight: bold;
-   font-size: large;
-   color: white;
-   background-color: rgba(0, 0, 0, 0.612);
-   padding: 8px;
-   border-radius: 10px;
-   text-align: center;
-}
-
-#proyects{
-    color: white;
-    font-weight: bold;
-    font-style: italic;
-    text-decoration: underline dashed;
-}
-
-hr{
-    margin-top: 10px;
-    border-color: azure;
-    border-style: dashed;
-}
-
-#habilidad{
-    border-radius: 30px;
-    margin-top: 6px;
+    height: 100%; /* Asegura que ocupe toda la altura del contenedor */
+    width: 100%; /* Asegura que ocupe todo el ancho del contenedor */
+    position: absolute; /* Asegura que ocupe toda la pantalla */
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
 }
 
 .container{
-    justify-content: center;
-    align-items: center;
+   border: 1px solid blue;
+   display: grid;
+   justify-content: center;
 }
 
-/*
-  cuadros de proyectos
-*/
-.container figure{    
-    position: relative;
-    height: 265px;
-    width: 350px;
-    overflow: hidden;
-    border-radius: 6px;
-    box-shadow: 0px 25px 15px rgba(0, 0, 0, 0.50);
-    cursor: pointer;
-    margin-right: 30px;
-}
-
-.container figure img{
-     width: 100%;
-     height: 100%;
-     transition: all 500ms ease-out;
-     
-    }
-
-.container figure .capa{
-    position:absolute;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(3, 74, 88, 0.835);
-    transition: all 500ms ease-out;
-    opacity: 0;
-    visibility: hidden;
-    text-align: center;
-}
-
-.container figure:hover > .capa{
-    opacity: 1;
-    visibility: visible;
-}
-
-.container figure:hover > .capa h3{
-     margin-top: 20px;
-     margin-bottom: 10px;
-}
-
-.container figure .capa h3{
-    color: #fff;
-    font-weight: 400;
-    margin-bottom: 120px;
-    transition: all 500ms ease-out;
-    margin-top: 30px;
-}
-
-.container figure:hover > .capa p{
-   color: #fff;
-   font-size: 15px;
-   line-height: 1.5;
-   width: 100%;
-   max-width: 350px;
-   margin: auto;
-   text-align: left;
-   padding-left: 3px;
-}
-
-b{
-    color: rgb(151, 148, 148);
-}
-
-.cont{
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    cursor: pointer;
-}
-
-.cont img{
-    border-radius: 6px;
-}
-/*Botones dinamicos*/
-.btn {
- 
-    position: relative;
-    display: inline-block;
-    padding: 10px 17px;
-    font-size: 16px;
-    text-align: center;
-    text-transform: uppercase;
-    color: #fff;
-    background-color: #ff0000;
-    border: none;
-    cursor: pointer;
-    transition: all 0.3s ease;
-  }
-  
-  .btn::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(106, 182, 230, 0.3);
-    box-shadow: 0 8px 16px rgba(255, 0, 0, 0.3);
-    transform: perspective(100px) rotateX(10deg);
-    opacity: 0;
-    transition: opacity 0.3s, transform 0.3s;
-  }
-  
-  .btn:hover {
-    transform: translateY(-3px);
-  }
-  
-  .btn:hover::before {
-    opacity: 1;
-    transform: perspective(100px) rotateX(0deg);
-  }
-
-  .foot{
-    text-align: center;
+.btn_nuevo {
     color: white;
-  }
+    border: 1px solid blue;
+    text-decoration: none;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #ff0000;
+    animation: colorChange 1s infinite; /* Añade la animación */
+}
 
-  @media only screen and (max-width: 767px){
-    .container figure{    
-        position: relative;
-        height: 295px;
-        width: 300px;
-        overflow: hidden;
-        border-radius: 6px;
-        box-shadow: 0px 25px 15px rgba(0, 0, 0, 0.50);
-        cursor: pointer;
-        margin-right: 30px;
+.btn_nuevo:hover {
+    background-color: #119a1a;
+    animation:  none;
+    box-shadow: 8px 8px 28px rgba(239, 14, 14, 0.5);
+}
+
+.title{
+    color: white;
+    border: 1px solid blue;
+    margin-bottom: 0;
+}
+
+/* Define la animación */
+@keyframes colorChange {
+    0% {
+        background-color: #ff0000; /* Rojo */
     }
-  }
+    50% {
+        background-color: #ff9900; /* Verde */
+    }
+    100% {
+        background-color: #119a1a; /* Azul */
+    }
+}
 
+
+.icon_nuevo{
+    font-size: 150px;
+}
+
+.btn_nuevo:hover .icon_nuevo{
+    font-size: 140px;
+}
